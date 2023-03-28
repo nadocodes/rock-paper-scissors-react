@@ -13,10 +13,18 @@ html, body {
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 h1 {
   font-size: 24px;
   margin: 0;
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   color: var(--primary-text);
   padding: 8px;
 }

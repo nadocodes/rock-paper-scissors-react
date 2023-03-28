@@ -55,7 +55,7 @@ function App() {
   
 
   return (
-    <div className="App center">
+    <div className="App">
       <h1>Rock Paper Scissors</h1>
       <div>
         <div className='container'>
