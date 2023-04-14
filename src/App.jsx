@@ -32,10 +32,10 @@ function App() {
     setComputerAction(computerSelectedAction);
     const newWinner = calculateWinner(selectedAction, computerSelectedAction);
     setWinner(newWinner);
-    if (newWinner === 1) {
+    if (newWinner === -1) {
       setPlayerScore(playerScore + 1);
     }
-    if (newWinner === -1) {
+    if (newWinner === 1) {
       setComputerScore(computerScore + 1);
     }
     setRound(round + 1);
